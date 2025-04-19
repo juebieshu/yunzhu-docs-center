@@ -2,6 +2,9 @@ import { defaultTheme } from '@vuepress/theme-default'
 // import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { markdownHintPlugin } from '@vuepress/plugin-markdown-hint'
+import { markdownStylizePlugin } from '@vuepress/plugin-markdown-stylize'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
+import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 
 export default ({
   lang: 'zh-cn',
@@ -40,11 +43,11 @@ export default ({
         children:[
           {
             text: '引言',
-            link: '/introduce.html#引言'
+            link: '/#引言'
           },
           {
             text: '服务器站点',
-            link: '/introduce.html#服务器站点'
+            link: '/#服务器站点'
           },
         ]
       },
@@ -84,16 +87,6 @@ export default ({
             text: '模组与插件',
             collapsible: true,
             link: '/operations/mods-and-plugins.html',
-            children:[
-              {
-                text: '模组列表',
-                link: '/operations/plugins.html#模组列表'
-              },
-              {
-                text: '推荐模组',
-                link: '/operations/plugins.html#推荐模组'
-              }
-            ],
           },
           {
             text: '社交媒体',
@@ -139,7 +132,7 @@ export default ({
           },
           {
             text: '游玩问题',
-            link: '/troubleshoot/play-issue.html'
+            link: '/troubleshoot/play-game-issue.html'
           },
           {
             text: '游戏意外结束问题',
@@ -173,6 +166,23 @@ export default ({
       hint: true,
       // 启用 GFM 警告
       alert: true,
+    }),
+    markdownStylizePlugin({
+      align: true,
+    }),
+    markdownImagePlugin({
+      // 启用 figure
+      figure: true,
+      // 启用图片懒加载
+      lazyload: true,
+      // 启用图片标记
+      mark: true,
+      // 启用图片大小
+      // size: true,
+    }),
+    slimsearchPlugin({
+      indexContent: true,
+      suggestion: true,
     }),
   ],
 })
