@@ -10,7 +10,7 @@ export default ({
   lang: 'zh-cn',
   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   title: '云筑工坊文档中心',
-  description: 'My first VuePress Site',
+  description: '云筑工坊文档中心',
 
   theme: defaultTheme({
     contributors: false,
@@ -20,19 +20,89 @@ export default ({
     editLinks: true,
     editLinkText: '帮助我们改进此页面！',
     navbar: [
-      // 嵌套 Group - 最大深度为 2
+      // 第一项：文档中心
       {
-        text: 'Group',
-        prefix: '/group/',
+        text: '文档中心',
+        prefix: '',
+        children: [
+          'foo.md', // 实际路径需检查文件是否存在
+          'bar.md',
+          {
+            text: 'Example',
+            link: 'https://example.com',
+          },
+        ],
+      },
+      // 第二项：文档中心
+      {
+        text: '快速访问',
+        children: [
+          { text: '社交媒体',
             children: [
-              'foo.md', // 解析为 `/guide/group/sub1/bar.md`
-              'bar.md', // 解析为 `/guide/group/sub1/bar.md`
-
-              // 一个外部链接
               {
-                text: 'Example',
-                link: 'https://example.com',
+                text: '哔哩哔哩',
+                link: 'https://space.bilibili.com/3546779284932989',
               },
+            ],
+          },
+          { text: 'Wiki', link: 'https://wiki.yunzhu.host' },
+          { text: '皮肤站', link: 'https://skins.yunzhu.host' },
+          { text: '世界地图', link: 'https://map.yunzhu.host' },
+          { text: '图床', link: 'https://image.yunzhu.host' },
+          { text: '线路图', link: 'https://metro.yunzhu.host' },
+          { text: '服务状态监控', link: 'https://status.yunzhu.host' },
+          { text: '社交媒体',
+            children: [
+              {
+                text: '哔哩哔哩',
+                link: 'https://space.bilibili.com/3546779284932989',
+              },
+            ],
+          },
+        ],
+      },
+      // 第三项：友链（分服务器、团体、个人三类）
+      {
+        text: '友链',
+        children: [
+          // 服务器
+          {
+            text: '服务器',
+            children: [
+              {
+                text: '青岚工艺',
+                link: 'https://gmwiki.bklmc.top/',
+              },
+            ],
+          },
+          // 团体
+          {
+            text: '团体',
+            children: [
+              {
+                text: 'IMG 无限广播电视总台',
+                link: 'https://imgnews.cn/',
+              },
+            ],
+          },
+          // 个人
+          {
+            text: '个人',
+            children: [
+              {
+                text: '豹猫苦力怕可乐的小站',
+                link: 'https://www.bklmc.top/',
+              },
+              {
+                text: '喵橘的小窝',
+                link: 'https://www.xfunny.top/',
+              },
+              {
+                text: 'SunRt233的站点',
+                link: 'https://site.sunrt233.top/',
+              },
+            ],
+          },
         ],
       },
     ],
@@ -152,7 +222,7 @@ export default ({
             link: '/misc/supporting-the-guides.html'
           },
           {
-            text: '鸣谢',
+            text: '感谢',
             link: '/misc/thanks.html'
           }
         ]
@@ -178,7 +248,7 @@ export default ({
       // 启用图片标记
       mark: true,
       // 启用图片大小
-      // size: true,
+      size: true,
     }),
     slimsearchPlugin({
       indexContent: true,
