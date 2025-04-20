@@ -1,6 +1,7 @@
 ---
 title: 概述
-description: 概述
+description: 关于云筑工坊的概述
+keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecraft,我的世界服务器,服务器,云筑工坊服务器,云筑工坊服务器文档,云筑工坊文档中心
 ---
 
 # 概述

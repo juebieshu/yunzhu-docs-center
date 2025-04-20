@@ -1,6 +1,7 @@
 ---
 title: 玩家指南
-description: 玩家指南
+description: 提供入服、参观等指南
+keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecraft,我的世界服务器,服务器,云筑工坊服务器,云筑工坊服务器文档,云筑工坊文档中心
 ---
 
 # 玩家指南

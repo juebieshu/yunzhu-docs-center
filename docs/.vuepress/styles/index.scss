@@ -1,7 +1,7 @@
 // === colors ===
 :root {
   // accent colors
-    //Other
+  //Other
   --vp-c-accent: #299764;
   --vp-c-accent-bg: #3eaf7c;
   --vp-c-accent-hover: #4abf8a;
@@ -55,9 +55,8 @@
   --badge-c-note-bg: var(--vp-c-grey-soft);
 
   // font vars
-  --font-family:
-    -apple-system, 'BlinkMacSystemFont', 'Segoe UI', roboto, oxygen, ubuntu,
-    cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", roboto, oxygen,
+    ubuntu, cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
   // layout vars
   --navbar-height: 3.6rem;
@@ -76,29 +75,33 @@
   --vp-t-transform: 0.3s ease;
 
   // external-link-icon
-  --external-link-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z'/%3E%3C/svg%3E");
+  --external-link-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -960 960 960' fill='%23e8eaed'%3E%3Cpath d='M206.31-108q-41.03 0-69.67-28.64T108-206.31v-547.38q0-41.03 28.64-69.67T206.31-852h234.3q17.77 0 30.39 12.62 12.61 12.61 12.61 30.38T471-778.62Q458.38-766 440.61-766h-234.3q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46v547.38q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85h547.38q4.62 0 8.46-3.85 3.85-3.84 3.85-8.46v-234.3q0-17.77 12.62-30.39 12.61-12.61 30.38-12.61T839.38-471Q852-458.38 852-440.61v234.3q0 41.03-28.64 69.67T753.69-108H206.31ZM766-705.85 415.85-355.69q-12.31 12.3-29.89 12.5-17.57.19-30.27-12.5Q343-368.39 343-385.77t12.69-30.08L705.85-766H622q-17.77 0-30.38-12.62Q579-791.23 579-809t12.62-30.38Q604.23-852 622-852h180.84q20.47 0 34.81 14.35Q852-823.31 852-802.84V-622q0 17.77-12.62 30.38Q826.77-579 809-579t-30.38-12.62Q766-604.23 766-622v-83.85Z'/%3E%3C/svg%3E");
   --external-link-c-icon: var(--vp-c-text-mute);
+
+  @media (max-width: 719px) {
+    --content-width: 100%;
+  }
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   // brand colors
-  --vp-c-accent: #709EC5;
-  --vp-c-accent-bg: #4B7DA1;
-  --vp-c-accent-hover: #C6E0F3;
+  --vp-c-accent: #709ec5;
+  --vp-c-accent-bg: #4b7da1;
+  --vp-c-accent-hover: #c6e0f3;
   --vp-c-accent-soft: rgb(16 185 129 / 16%);
 
   // background colors
-  --vp-c-bg:#16181c;
+  --vp-c-bg: #16181c;
   --vp-c-bg-alt: #161618;
   --vp-c-bg-elv: #202127;
 
   // text colors
-  --vp-c-text:#ecf9fb;
+  --vp-c-text: #ecf9fb;
   --vp-c-text-mute: rgb(235 235 245 / 60%);
   --vp-c-text-subtle: rgb(235 235 245 / 38%);
 
   // border colors
-  --vp-c-gutter:#26292f;
+  --vp-c-gutter: #26292f;
   --vp-c-border: #3c3f44;
   --vp-c-border-hard: #45484e;
 
@@ -109,10 +112,18 @@
   --vp-c-control: rgb(101 117 133 / 12%);
   --vp-c-control-hover: rgb(101 117 133 / 18%);
   --vp-c-control-disabled: #363636;
-
 }
 
 .vp-page-nav .auto-link {
   padding: 1rem 1.4rem;
-  border-radius:1rem;
+  border-radius: 1rem;
+}
+a.header-anchor::before {
+  content: "#";
+  top: 0.06em;
+  left: -0.75em;
+  font-size: 1em;
+}
+h1 :hover,h2 :hover,h3:hover,h4:hover,h5:hover,h6:hover {
+  text-decoration: underline;
 }

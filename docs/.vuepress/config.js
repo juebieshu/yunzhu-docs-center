@@ -5,6 +5,7 @@ import { markdownHintPlugin } from '@vuepress/plugin-markdown-hint'
 import { markdownStylizePlugin } from '@vuepress/plugin-markdown-stylize'
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+import { seoPlugin } from '@vuepress/plugin-seo'
 
 export default ({
   lang: 'zh-cn',
@@ -16,7 +17,7 @@ export default ({
     contributors: false,
     lastUpdated: true,
     logo: '/images/logo.png',
-    repo: 'https://github.com/juebieshu/yunzhu-docs-center',
+    repo: 'https://github.com/juebieshu/yunzhu-docs-center/tree/docs',
     editLinks: true,
     editLinkText: '帮助我们改进此页面！',
     navbar: [
@@ -37,20 +38,16 @@ export default ({
       {
         text: '快速访问',
         children: [
-          { text: '社交媒体',
+          { text: '云筑工坊',
             children: [
-              {
-                text: '哔哩哔哩',
-                link: 'https://space.bilibili.com/3546779284932989',
-              },
+              { text: 'Wiki', link: 'https://wiki.yunzhu.host' },
+              { text: '皮肤站', link: 'https://skins.yunzhu.host' },
+              { text: '世界地图', link: 'https://map.yunzhu.host' },
+              { text: '图床', link: 'https://image.yunzhu.host' },
+              { text: '线路图', link: 'https://metro.yunzhu.host' },
+              { text: '服务状态监控', link: 'https://status.yunzhu.host' },
             ],
           },
-          { text: 'Wiki', link: 'https://wiki.yunzhu.host' },
-          { text: '皮肤站', link: 'https://skins.yunzhu.host' },
-          { text: '世界地图', link: 'https://map.yunzhu.host' },
-          { text: '图床', link: 'https://image.yunzhu.host' },
-          { text: '线路图', link: 'https://metro.yunzhu.host' },
-          { text: '服务状态监控', link: 'https://status.yunzhu.host' },
           { text: '社交媒体',
             children: [
               {
@@ -63,7 +60,7 @@ export default ({
       },
       // 第三项：友链（分服务器、团体、个人三类）
       {
-        text: '友链',
+        text: '友情链接',
         children: [
           // 服务器
           {
@@ -110,6 +107,7 @@ export default ({
       // 首页
       {
         text: '首页',
+        link: '/',
         children:[
           {
             text: '引言',
@@ -192,26 +190,14 @@ export default ({
       {
         text: '疑难解答',
         children:[
-          {
-            text: '概述',
-            link: '/troubleshoot/',
-          },
-          {
-            text: '游戏启动问题',
-            link: '/troubleshoot/game-startup-issue.html'
-          },
-          {
-            text: '游玩问题',
-            link: '/troubleshoot/play-game-issue.html'
-          },
-          {
-            text: '游戏意外结束问题',
-            link: '/troubleshoot/unexpected-end-of-game-issue.html'
-          },
-          {
-            text: '其他问题',
-            link: '/troubleshoot/other-issue.html'
-          }
+          {text: '一般问题排查',link: '/troubleshoot/',},
+          {children:[
+            {text: '游戏启动问题',link: '/troubleshoot/general/game-startup-issue.html',},
+            {text: '游玩问题',link: '/troubleshoot/general/play-game-issue.html'},
+            {text: '游戏意外结束问题',link: '/troubleshoot/general/unexpected-end-of-game-issue.html'}
+          ],},
+          {text: '指令问题',link: '/troubleshoot/command-issue.html'},
+          {text: '其他问题',link: '/troubleshoot/other-issue.html'}
         ]
       },
       {
@@ -253,6 +239,13 @@ export default ({
     slimsearchPlugin({
       indexContent: true,
       suggestion: true,
+    }),
+    seoPlugin({
+      hostname: 'https://docs.e-craft.top/',
+      // ogp: (ogp, page) => ({
+      //   ...ogp,
+      //   'og:image': page.frontmatter.banner || ogp['og:image'],
+      // }),
     }),
   ],
 })
