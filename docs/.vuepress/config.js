@@ -6,6 +6,7 @@ import { markdownStylizePlugin } from '@vuepress/plugin-markdown-stylize'
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import { seoPlugin } from '@vuepress/plugin-seo'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default ({
   lang: 'zh-cn',
@@ -241,11 +242,14 @@ export default ({
       suggestion: true,
     }),
     seoPlugin({
-      hostname: 'https://docs.e-craft.top/',
       // ogp: (ogp, page) => ({
       //   ...ogp,
       //   'og:image': page.frontmatter.banner || ogp['og:image'],
       // }),
+    }),
+    sitemapPlugin({
+      // 选项
+      hostname: 'https://docs.e-craft.top/',
     }),
   ],
 })
