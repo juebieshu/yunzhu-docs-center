@@ -1,1 +1,1 @@
-cd C:\Project\vuepress\yunzhu-docs-center && npm run docs:dev
+npm run docs:dev

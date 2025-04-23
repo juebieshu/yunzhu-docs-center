@@ -83,11 +83,11 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 以下模组为推荐模组，但并非必须安装，请根据个人需求选择安装。
 :::
 :::warning
-服务器并不提供以下模组，需自行前往 [Modrinth](https://modrinth.com/)下载。
+服务器并不提供以下模组，需自行前往 [Modrinth](https://modrinth.com/) 或 [Curseforge](https://www.curseforge.com/) 下载。
 :::
 
 | 名称 | MC百科 | 版本 | 下载 | 推荐理由 | 类型 | 备注 |
-| ------------ | ---- | ----- | ----- | ----- | ----- | :----- |
+| ------ | ---- | ----- | ------------------------- | ----- | ----- | :----- |
 | 钠 · 扩展<br><font size=2>Sodium Extra</font> | [钠 · 扩展](https://www.mcmod.cn/class/3701.html) | 0.5.9 | [Modrinth](https://modrinth.com/mod/sodium-extra) | 为钠添加了更多配置选项 | 性能优化 | 需安装 [钠(Sodium)](https://modrinth.com/mod/sodium) |
 | Xaero的小地图<br><font size=2>Xaero's Minimap</font> | [Xaero的小地图](https://www.mcmod.cn/class/1701.html) | 25.2.0 | [Modrinth](https://modrinth.com/mod/xaeros-minimap) | 作为旅行地图的平替品，建议搭配[Xaero的世界地图](https://modrinth.com/mod/xaeros-world-map)一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |
 | Xaero的世界地图<br><font size=2>Xaero's World Map</font> | [Xaero的世界地图](https://www.mcmod.cn/class/1483.html) | 1.39.4 | [Modrinth](https://modrinth.com/mod/xaeros-world-map) | 作为旅行地图的平替品，建议搭配[Xaero的小地图](https://modrinth.com/mod/xaeros-minimap)一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |

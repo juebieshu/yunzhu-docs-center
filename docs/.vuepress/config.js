@@ -10,7 +10,16 @@ import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default ({
   lang: 'zh-cn',
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [
+  ['link', { rel: 'icon', href: '/images/logo.png' }],
+  ["link", {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900"
+  }],
+  ['link', { 
+    rel: 'stylesheet', 
+    href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' 
+  }]],
   title: '云筑工坊文档中心',
   description: '云筑工坊文档中心',
 
@@ -23,18 +32,15 @@ export default ({
     editLinkText: '帮助我们改进此页面！',
     navbar: [
       // 第一项：文档中心
-      {
-        text: '文档中心',
-        prefix: '',
-        children: [
-          'foo.md', // 实际路径需检查文件是否存在
-          'bar.md',
-          {
-            text: 'Example',
-            link: 'https://example.com',
-          },
-        ],
-      },
+      // {
+      //   text: '文档中心',
+      //   prefix: '',
+      //   children: [
+      //     '/',
+      //     '/info/', 
+      //     '/troubleshoot/', 
+      //   ],
+      // },
       // 第二项：文档中心
       {
         text: '快速访问',
@@ -246,10 +252,10 @@ export default ({
       //   ...ogp,
       //   'og:image': page.frontmatter.banner || ogp['og:image'],
       // }),
+      hostname: 'https://docs.e-craft.top/',
     }),
     sitemapPlugin({
       // 选项
-      hostname: 'https://docs.e-craft.top/',
     }),
   ],
 })
