@@ -11,21 +11,22 @@ import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 export default ({
   lang: 'zh-cn',
   head: [
-  ['link', { rel: 'icon', href: '/images/logo.png' }],
-  ["link", {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900"
-  }],
-  ['link', { 
-    rel: 'stylesheet', 
-    href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' 
-  }]],
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    ["link", {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900"
+    }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'
+    }]],
   title: '云筑工坊文档中心',
   description: '云筑工坊文档中心',
 
   theme: defaultTheme({
     contributors: false,
     lastUpdated: true,
+    lastUpdatedText: '最后更新',
     logo: '/images/logo.png',
     repo: 'https://github.com/juebieshu/yunzhu-docs-center/tree/docs',
     editLinks: true,
@@ -45,7 +46,8 @@ export default ({
       {
         text: '快速访问',
         children: [
-          { text: '云筑工坊',
+          {
+            text: '云筑工坊',
             children: [
               { text: 'Wiki', link: 'https://wiki.yunzhu.host' },
               { text: '皮肤站', link: 'https://skins.yunzhu.host' },
@@ -55,7 +57,8 @@ export default ({
               { text: '服务状态监控', link: 'https://status.yunzhu.host' },
             ],
           },
-          { text: '社交媒体',
+          {
+            text: '社交媒体',
             children: [
               {
                 text: '哔哩哔哩',
@@ -110,12 +113,12 @@ export default ({
         ],
       },
     ],
-    sidebar:[
+    sidebar: [
       // 首页
       {
         text: '首页',
         link: '/',
-        children:[
+        children: [
           {
             text: '引言',
             link: '/#引言'
@@ -128,7 +131,7 @@ export default ({
       },
       {
         text: '基础信息',
-        children:[
+        children: [
           {
             text: '概述',
             link: '/info/'
@@ -149,7 +152,7 @@ export default ({
       },
       {
         text: '运营信息',
-        children:[
+        children: [
           {
             text: '管理组',
             link: '/operations/admingroup.html'
@@ -171,7 +174,7 @@ export default ({
       },
       {
         text: '条例文件',
-        children:[
+        children: [
           {
             text: '交流群群规',
             link: '/files/group-rules.html'
@@ -196,20 +199,22 @@ export default ({
       },
       {
         text: '疑难解答',
-        children:[
-          {text: '一般问题排查',link: '/troubleshoot/',},
-          {children:[
-            {text: '游戏启动问题',link: '/troubleshoot/general/game-startup-issue.html',},
-            {text: '游玩问题',link: '/troubleshoot/general/play-game-issue.html'},
-            {text: '游戏意外结束问题',link: '/troubleshoot/general/unexpected-end-of-game-issue.html'}
-          ],},
-          {text: '指令问题',link: '/troubleshoot/command-issue.html'},
-          {text: '其他问题',link: '/troubleshoot/other-issue.html'}
+        children: [
+          { text: '一般问题排查', link: '/troubleshoot/', },
+          {
+            children: [
+              { text: '游戏启动问题', link: '/troubleshoot/general/game-startup-issue.html', },
+              { text: '游玩问题', link: '/troubleshoot/general/play-game-issue.html' },
+              { text: '游戏意外结束问题', link: '/troubleshoot/general/unexpected-end-of-game-issue.html' }
+            ],
+          },
+          { text: '指令问题', link: '/troubleshoot/command-issue.html' },
+          { text: '其他问题', link: '/troubleshoot/other-issue.html' }
         ]
       },
       {
         text: '杂项',
-        children:[
+        children: [
           {
             text: '支持指南',
             link: '/misc/supporting-the-guides.html'

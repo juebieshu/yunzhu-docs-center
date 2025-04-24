@@ -39,4 +39,4 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 
 <br>
 
-对于那些对本文档中心有建议或问题的人，您可以到交流群中反馈，或者到[GitHub](https://github.com/jiebieshu/yunzhu-docs-center)提交issue。
+对于那些对本文档中心有建议或问题的人，您可以到交流群中反馈，或者到 [GitHub](https://github.com/jiebieshu/yunzhu-docs-center) 提交issue。

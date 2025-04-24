@@ -12,6 +12,10 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 
 ## 服务器
 
+| 服务器核心 | 版本 | 模组加载器 | 模组加载器版本 |
+| ---- | -------- | ------ | ------- |
+| N/A | Java 1.20.1 | N/A | N/A |
+
 ## 客户端
 
 | 启动器 | 版本 | 模组加载器 | 模组加载器版本 |
@@ -25,7 +29,7 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 :::
 
 | 名称 | MC百科 | 版本 | 下载 | 备注 | 运行环境 |
-| ------------ | ---- | ----- | ----- | ----- | ----- |
+| ------------ | ---- | ----- | ----- | ----- | ------- |
 | 暗访谈的Fabric道路<br><font size=2>aftersans53228's fabric roads</font> | [暗访谈的Fabric道路](https://www.mcmod.cn/class/5636.html) | 1.0.2 | [Modrinth](https://modrinth.com/mod/aftersans53228-fabric-road) |  | **必装** |
 | Architectury API | [Architectury API](https://www.mcmod.cn/class/3434.html) | 9.2.14 | [Modrinth](https://modrinth.com/mod/architectury-api) | 前置模组 | **必装** |
 | 飞车奇匠<br><font size=2>Automobility</font> | [飞车奇匠](https://www.mcmod.cn/class/7241.html) | 0.4.2 | [Modrinth]() |  | **必装** |
@@ -84,17 +88,19 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 :::
 :::warning
 服务器并不提供以下模组，需自行前往 [Modrinth](https://modrinth.com/) 或 [Curseforge](https://www.curseforge.com/) 下载。
+
+**版本均为更新时的最新版本，如果过时，请安装最新版本。**
 :::
 
 | 名称 | MC百科 | 版本 | 下载 | 推荐理由 | 类型 | 备注 |
 | ------ | ---- | ----- | ------------------------- | ----- | ----- | :----- |
 | 钠 · 扩展<br><font size=2>Sodium Extra</font> | [钠 · 扩展](https://www.mcmod.cn/class/3701.html) | 0.5.9 | [Modrinth](https://modrinth.com/mod/sodium-extra) | 为钠添加了更多配置选项 | 性能优化 | 需安装 [钠(Sodium)](https://modrinth.com/mod/sodium) |
-| Xaero的小地图<br><font size=2>Xaero's Minimap</font> | [Xaero的小地图](https://www.mcmod.cn/class/1701.html) | 25.2.0 | [Modrinth](https://modrinth.com/mod/xaeros-minimap) | 作为旅行地图的平替品，建议搭配[Xaero的世界地图](https://modrinth.com/mod/xaeros-world-map)一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |
-| Xaero的世界地图<br><font size=2>Xaero's World Map</font> | [Xaero的世界地图](https://www.mcmod.cn/class/1483.html) | 1.39.4 | [Modrinth](https://modrinth.com/mod/xaeros-world-map) | 作为旅行地图的平替品，建议搭配[Xaero的小地图](https://modrinth.com/mod/xaeros-minimap)一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |
+| Xaero的小地图<br><font size=2>Xaero's Minimap</font> | [Xaero的小地图](https://www.mcmod.cn/class/1701.html) | 25.2.0 | [Modrinth](https://modrinth.com/mod/xaeros-minimap) | 作为旅行地图的平替品，建议搭配 [Xaero的世界地图](https://modrinth.com/mod/xaeros-world-map) 一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |
+| Xaero的世界地图<br><font size=2>Xaero's World Map</font> | [Xaero的世界地图](https://www.mcmod.cn/class/1483.html) | 1.39.4 | [Modrinth](https://modrinth.com/mod/xaeros-world-map) | 作为旅行地图的平替品，建议搭配 [Xaero的小地图](https://modrinth.com/mod/xaeros-minimap) 一起使用 | 地图 | 需安装 [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port/) |
 | 现代化修复<br><font size=2>ModernFix</font> | [现代化修复](https://www.mcmod.cn/class/8714.html) | 5.21.0 | [Modrinth](https://modrinth.com/mod/modernfix) |  | 性能优化 |  |
 | Continuity | [Continuity](https://www.mcmod.cn/class/4906.html) | 3.0.0 | [Modrinth](https://modrinth.com/mod/continuity/) | 可提供无缝玻璃 | 功能 |  |
 | Zoomify | [Zoomify](https://www.mcmod.cn/class/6624.html) | 2.14.2 | [Modrinth](https://modrinth.com/mod/zoomify/) | 提供C键放大 | 功能 | 需安装 [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)、[YetAnotherConfigLib](https://modrinth.com/mod/yacl) |
 | Reese的钠视频界面<br><font size=2>Reese's Sodium Options</font> | [Reese的钠视频界面](https://www.mcmod.cn/class/4905.html) | 1.7.1 | [Modrinth](https://modrinth.com/mod/reeses-sodium-options) | 替换了钠的选项屏幕，皆在改善用户体验 | 装饰 | 需安装 [钠(Sodium)](https://modrinth.com/mod/sodium) |
-| REI物品管理器<br><font size=2>Roughly Enough Items</font> | [REI物品管理器](https://www.mcmod.cn/class/1674.html) | 1.7.1 | [Modrinth](https://modrinth.com/mod/rei) | REI是一个简洁且功能强大的物品及合成配方管理器 | 功能 | 需安装 [Fabric API](https://modrinth.com/mod/fabric-api) |
+| REI物品管理器<br><font size=2>Roughly Enough Items</font> | [REI物品管理器](https://www.mcmod.cn/class/1674.html) | 12.1.785 | [Modrinth](https://modrinth.com/mod/rei) | REI是一个简洁且功能强大的物品及合成配方管理器 | 功能 | 需安装 [Fabric API](https://modrinth.com/mod/fabric-api) |
 
 ## 插件
