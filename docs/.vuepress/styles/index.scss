@@ -9,7 +9,7 @@
   --vp-c-accent-soft: rgb(16 185 129 / 14%);
 
   // background colors
-  --vp-c-bg: #fff;
+  --vp-c-bg: #f2f4f8;
   --vp-c-bg-alt: #f6f6f7;
   --vp-c-bg-elv: #fff;
 
@@ -91,12 +91,12 @@
   --vp-c-accent-soft: rgb(16 185 129 / 16%);
 
   // background colors
-  --vp-c-bg: #16181c;
+  --vp-c-bg: #07090d;
   --vp-c-bg-alt: #161618;
   --vp-c-bg-elv: #202127;
 
   // text colors
-  --vp-c-text: #ecf9fb;
+  --vp-c-text: #e8effc;
   --vp-c-text-mute: rgb(235 235 245 / 60%);
   --vp-c-text-subtle: rgb(235 235 245 / 38%);
 
@@ -124,7 +124,6 @@ a.header-anchor::before {
   left: -0.75em;
   font-size: 1em;
 }
-h1 :hover,h2 :hover,h3:hover,h4:hover,h5:hover,h6:hover {
+h1 :hover,h2 :hover,h3 :hover,h4 :hover,h5 :hover,h6 :hover {
   text-decoration: underline;
-  // color: #1a202c;
 }

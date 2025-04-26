@@ -11,7 +11,7 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 
 **请在询问之前善用搜索功能，因为您遇到的问题可能已经被解决过**。以免给他人带来困扰。
 
-::: info
+::: important
 本节更新缓慢，如果遇到无法解决的问题，请到门户群询问。
 :::
 
@@ -28,3 +28,17 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 * [游戏意外结束问题](./general/unexpected-end-of-game-issue.md)
   * 游玩过程中游戏突然崩溃，查看这个部分可以找到解决方法。
 
+::: important
+:::
+::: note
+:::
+::: tip
+:::
+::: warning
+:::
+::: caution
+:::
+::: info
+:::
+::: details
+:::

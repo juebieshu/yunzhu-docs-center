@@ -14,7 +14,7 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 
 | 服务器核心 | 版本 | 模组加载器 | 模组加载器版本 |
 | ---- | -------- | ------ | ------- |
-| N/A | Java 1.20.1 | N/A | N/A |
+| Unknown | Java 1.20.1 | Unknown | Unknown |
 
 ## 客户端
 
@@ -27,23 +27,25 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 :::warning
 模组列表更新可能滞后，请以客户端安装的模组为准。
 :::
+:::info 客户端最近更新时间：2025年4月19日
+:::
 
 | 名称 | MC百科 | 版本 | 下载 | 备注 | 运行环境 |
 | ------------ | ---- | ----- | ----- | ----- | ------- |
 | 暗访谈的Fabric道路<br><font size=2>aftersans53228's fabric roads</font> | [暗访谈的Fabric道路](https://www.mcmod.cn/class/5636.html) | 1.0.2 | [Modrinth](https://modrinth.com/mod/aftersans53228-fabric-road) |  | **必装** |
 | Architectury API | [Architectury API](https://www.mcmod.cn/class/3434.html) | 9.2.14 | [Modrinth](https://modrinth.com/mod/architectury-api) | 前置模组 | **必装** |
-| 飞车奇匠<br><font size=2>Automobility</font> | [飞车奇匠](https://www.mcmod.cn/class/7241.html) | 0.4.2 | [Modrinth]() |  | **必装** |
-| Aviator Dreams | [Aviator Dreams](https://www.mcmod.cn/class/16895.html) | 2.0.0 | [Modrinth]() | 沉浸式飞机 附属模组 | **必装** |
-| BBS mod | [BBS mod](https://www.mcmod.cn/class/16070.html) | 1.2.5 | [Modrinth]() |  | **必装** |
-| Blockus | [Blockus](https://www.mcmod.cn/class/2936.html) | 2.7.21 | [Modrinth]() |  | **必装** |
-| 服务器区块缓存<br><font size=2>Bobby</font> | [服务器区块缓存](https://www.mcmod.cn/class/5291.html) | 5.0.1 | [Modrinth]() |  | **必装** |
-| 更好的运行时资源包<br><font size=2>[BRRP] Better Runtime Resource Pack</font> | [更好的运行时资源包](https://www.mcmod.cn/class/6297.html) | 1.0.1 | [Modrinth]() | 迷上城建 前置模组 | **必装** |
+| 飞车奇匠<br><font size=2>Automobility</font> | [飞车奇匠](https://www.mcmod.cn/class/7241.html) | 0.4.2 | [Modrinth](https://modrinth.com/mod/automobility) |  | **必装** |
+| Aviator Dreams | [Aviator Dreams](https://www.mcmod.cn/class/16895.html) | 2.0.0 | [Modrinth](https://modrinth.com/mod/aviator-dreams) | 沉浸式飞机 附属模组 | **必装** |
+| BBS mod | [BBS mod](https://www.mcmod.cn/class/16070.html) | 1.2.5 | [Modrinth](https://modrinth.com/mod/bbs-mod) |  | **必装** |
+| Blockus | [Blockus](https://www.mcmod.cn/class/2936.html) | 2.7.21 | [Modrinth](https://modrinth.com/mod/blockus) |  | **必装** |
+| 服务器区块缓存<br><font size=2>Bobby</font> | [服务器区块缓存](https://www.mcmod.cn/class/5291.html) | 5.0.1 | [Modrinth](https://modrinth.com/mod/bobby) |  | **必装** |
+| 更好的运行时资源包<br><font size=2>[BRRP] Better Runtime Resource Pack</font> | [更好的运行时资源包](https://www.mcmod.cn/class/6297.html) | 1.0.1 | [Modrinth](https://modrinth.com/mod/brrp) | 迷上城建 前置模组 | **必装** |
 | 城市工艺<br><font size=2>City Craft</font> | [城市工艺](https://www.mcmod.cn/class/7711.html) | 2.1.0 | [Modrinth](https://modrinth.com/mod/citycraft) |  | **必装** |
-| Click Signs | 不适用 | 1.0.3 | [Modrinth](https://modrinth.com/mod/clicksigns) |  | **必装** |
+| Click Signs | N/A | 1.0.3 | [Modrinth](https://modrinth.com/mod/clicksigns) |  | **必装** |
 | Cloth Config API | [Cloth Config API](https://www.mcmod.cn/class/2346.html) | 11.1.136 | [Modrinth](https://modrinth.com/mod/cloth-config) | 前置模组 | **必装** |
 | 机械动力<br><font size=2>Create</font> | [机械动力](https://www.mcmod.cn/class/2021.html) | 0.5.1-j | [Modrinth](https://modrinth.com/mod/create-fabric) |  | **必装** |
-| CurveBuilding | 不适用 | 0.5.0 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/curvebuilding) |  | **必装** |
-| Yunzhu Extension | 不适用 | 1.3.0.2 | 不适用 | 服务器模组 | **必装** |
+| CurveBuilding | N/A | 0.5.0 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/curvebuilding) |  | **必装** |
+| Yunzhu Extension | N/A | 1.3.0.2 | N/A | 服务器模组 | **必装** |
 | 扩展方块形状<br><font size=2>Extended Block Shapes</font> | [扩展方块形状](https://www.mcmod.cn/class/4535.html) | 3.1.0| [Modrinth](https://modrinth.com/mod/extshape_blockus) | Blockus 附属模组 | **必装** |
 | 扩展方块形状<br><font size=2>Extended Block Shapes</font> | [扩展方块形状](https://www.mcmod.cn/class/4535.html) | 3.1.0| [Modrinth](https://modrinth.com/mod/extshape) | 原版方块扩展 | **必装** |
 | Filters API | [Filters API](https://www.mcmod.cn/class/14323.html) | 1.0.0 | [Modrinth](https://modrinth.com/mod/filters-api) |  | **必装** |
@@ -55,7 +57,7 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 | Man of Many Planes | [Man of Many Planes](https://www.mcmod.cn/class/14080.html) | 0.2.0 | [Modrinth](https://modrinth.com/mod/man-of-many-planes) |  | **必装** |
 | 迷上城建<br><font size=2>Mishang Urban Construction</font> | [迷上城建](https://www.mcmod.cn/class/5743.html) | 1.4.5 | [Modrinth](https://modrinth.com/mod/mishang-urban-construction) |  | **必装** |
 | MTR 车站装饰<br><font size=2>[MSD] MTR Station Decoration</font> | [MTR 车站装饰](https://www.mcmod.cn/class/8823.html) | beta.15+hotfix.1-1.13.16 | [Modrinth](https://modrinth.com/mod/station-decoration) | MTR 附属模组 | **必装** |
-| 我的世界铁路<br><font size=2>[MTR] Minecraft Transit Railway</font> | [我的世界铁路](https://www.mcmod.cn/class/2157.html) | beta.15+h1 | [Modrinth](https://modrinth.com/mod/minecraft-transit-railway) |  | **必装** |
+| 我的世界铁路<br><font size=2>[MTR] Minecraft Transit Railway</font> | [我的世界铁路](https://www.mcmod.cn/class/2157.html) | 4.0.0-beta.16 | [Modrinth](https://modrinth.com/mod/minecraft-transit-railway) |  | **必装** |
 | 伦敦地铁<br><font size=2>[LU] MTR London Underground Addon</font> | [伦敦地铁](https://www.mcmod.cn/class/5301.html) | 2.2.3 | [Modrinth](https://modrinth.com/mod/the-tube) |  MTR 附属模组 | **必装** |
 | Paladin的家具<br><font size=2>Paladin's Furniture</font> | [Paladin的家具](https://www.mcmod.cn/class/8455.html) | 1.4 | [Modrinth](https://modrinth.com/mod/paladins-furniture) |  | **必装** |
 | 帕秋莉手册<br><font size=2>Patchouil</font> | [帕秋莉手册](https://www.mcmod.cn/class/1388.html) | 1.20.1-84.1 | [Modrinth](https://modrinth.com/mod/patchouli) |  | **必装** |
@@ -64,13 +66,13 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 | 机械动力：气鸣铁道<br><font size=2>[SnR] Create: Steam 'n' Rails</font> | [机械动力：气鸣铁道](https://www.mcmod.cn/class/8230.html) | 1.6.9 | [Modrinth](https://modrinth.com/mod/create-steam-n-rails) |  | **必装** |
 | 天津地铁<br><font size=2>Tianjin Metro</font> | [天津地铁](https://www.mcmod.cn/class/15836.html) | 3-hotfix-1 | [Modrinth](https://modrinth.com/mod/tianjin-metro) |  | **必装** |
 | TrafficCraft | [TrafficCraft](https://www.mcmod.cn/class/12733.html) | 1.1.3 | [Modrinth](https://modrinth.com/mod/trafficcraft) |  | **必装** |
-| Tv Studio Mod | 不适用 | 1.14.0 | [Modrinth](https://modrinth.com/mod/tv-studio-mod) |  | **必装** |
+| Tv Studio Mod | N/A | 1.14.0 | [Modrinth](https://modrinth.com/mod/tv-studio-mod) |  | **必装** |
 | WorldEdit CUI | [WorldEdit CUI](https://www.mcmod.cn/class/612.html) | 1.20.1+01 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric) | 虽然本模组非必装，但我们还是要求您安装 | **必装** |
 | WorldEdit | [WorldEdit](https://www.mcmod.cn/class/609.html) | 7.2.15 | [Modrinth](https://modrinth.com/plugin/worldedit) | 虽然本模组非必装，但我们还是要求您安装 | **必装** |
-| 云竹交通扩展<br><font size=2>Yunzhu Transit Extension</font> | 不适用 | 1.0.1 | 不适用 | 服务器模组 | **必装** |
+| 云竹交通<br><font size=2>Yunzhu Transit Extension</font> | N/A | 1.0.2 | N/A | 服务器模组 | **必装** |
 | 方块小镇<br><font size=2>Yuushya Townscape</font> | [方块小镇](https://www.mcmod.cn/class/4656.html) | 2.2.3 | [Modrinth](https://modrinth.com/mod/yuushya-townscape) |  | **必装** |
 | 方块建模<br><font size=2>Yuushya Modeling</font> | [方块建模](https://www.mcmod.cn/class/11555.html) | 2.2.0 | [Modrinth](https://modrinth.com/mod/yuushya-modelling) |  | **必装** |
-| 聊天头像<br><font size=2>Chat Heads</font> | [聊天头像](https://www.mcmod.cn/class/4523.html) | 0.13.13 | [Modrinth]() | *推荐安装* | 可选 |
+| 聊天头像<br><font size=2>Chat Heads</font> | [聊天头像](https://www.mcmod.cn/class/4523.html) | 0.13.13 | [Modrinth](https://modrinth.com/mod/chat-heads) | *推荐安装* | 可选 |
 | 修复GPU内存泄漏<br><font size=2>fix GPU memory leak</font> | [修复GPU内存泄漏](https://www.mcmod.cn/class/11863.html) | 1.8 | [Curseforge](https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak) | *推荐安装* | 可选 |
 | 铟<br><font size=2>Indium</font> | [铟](https://www.mcmod.cn/class/3413.html) | 1.0.36 | [Modrinth](https://modrinth.com/mod/indium) | *推荐安装* | 可选 |
 | Iris Shaders | [Iris Shaders](https://www.mcmod.cn/class/3697.html) | 1.7.6 | [Modrinth](https://modrinth.com/mod/iris) | *推荐安装，使用光影需装* | 可选 |
@@ -86,10 +88,10 @@ keywords: Docs,文档,e-craft,云筑工坊,Yunzhu,云筑,我的世界,MC,Minecra
 :::info
 以下模组为推荐模组，但并非必须安装，请根据个人需求选择安装。
 :::
-:::warning
+:::important
 服务器并不提供以下模组，需自行前往 [Modrinth](https://modrinth.com/) 或 [Curseforge](https://www.curseforge.com/) 下载。
 
-**版本均为更新时的最新版本，如果过时，请安装最新版本。**
+**版本均为更新时的最新版本，如果过时，请选择最新版本。**
 :::
 
 | 名称 | MC百科 | 版本 | 下载 | 推荐理由 | 类型 | 备注 |
